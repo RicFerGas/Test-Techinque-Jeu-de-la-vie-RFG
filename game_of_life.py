@@ -41,7 +41,7 @@ class GameOfLife:
                 if x == i and y == j: # Skip the current cell
                     continue
                 if 0 <= x < self.GRID_HEIGHT and 0 <= y < self.GRID_WIDTH: # Check the boundaries
-                    if self.grid[x][y]: # Check if the cell is alive
+                    if self.grid[x][y]: # Check if neighbor is alive
                         count += 1
         return count # Return the number of live neighbors
 

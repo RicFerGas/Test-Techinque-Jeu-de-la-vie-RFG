@@ -43,7 +43,7 @@ Ce module contient la classe `GameOfLife`, qui représente la simulation du Jeu 
   
 - `states_count` : Un compteur qui maintient le nombre total de générations simulées jusqu'à présent.
 
-La classe `GameOfLife` fournit une interface pour manipuler et simuler le Jeu de la Vie de Conway. Elle encapsule la logique du jeu et permet de le simuler de manière itérative.
+La classe `GameOfLife` fournit une interface pour manipuler et simuler le Jeu de la Vie. Elle encapsule la logique du jeu et permet de le simuler de manière itérative.
 
 ### unit_tests.py
 
